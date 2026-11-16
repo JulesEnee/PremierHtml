@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="calculatrice.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculatrice</h1>
+    </header>
+    <main>
+            <div class="calc-box">
+                <input type="number" id="nombre1" placeholder="Nombre 1">
+                <select id="operation">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input type="number" id="nombre2" placeholder="Nombre 2">
+                <button id="calculer">Calculer</button>
+                <div id="resultat"></div>
+            </div>
+    </main>
+    <footer>
+        <p>&copy;Calculatrice</p>
+    </footer>
+    <script src="calculatrice.js"></script>
+</body>
+</html>
